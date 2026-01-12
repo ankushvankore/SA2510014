@@ -39,6 +39,8 @@ public class D18HandlingDropdownList {
 		//countries.selectByValue("221");
 		countries.selectByIndex(239);
 		System.out.println("Selected Country: " + countries.getFirstSelectedOption().getText());
+		
+		//System.out.println("My Birth Date: " + day.getFirstSelectedOption().getText() + "-" + month.getFirstSelectedOption().getText() + "-" + year.getFirstSelectedOption().getText());
 	}
 
 }
