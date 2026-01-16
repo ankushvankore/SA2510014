@@ -25,7 +25,7 @@ public class D25HandlingMultipleWindows {
 		System.out.println("Title: " + driver.getTitle());
 		
 		Set<String>windows = driver.getWindowHandles();
-		System.out.println(windows);
+		//System.out.println(windows);
 		
 		Object[]winArray = windows.toArray();
 		//Convert the Set<> into array
