@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D06DataDrivenTesting">
+      <class name="com.TestNGDemos.D07AssertionDemo">
         <methods>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="login"/>
+          <include name="logout"/>
+          <include name="login" invocation-numbers="1 2"/>
           <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D06DataDrivenTesting -->
+      </class> <!-- com.TestNGDemos.D07AssertionDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

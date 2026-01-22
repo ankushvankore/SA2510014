@@ -41,9 +41,7 @@ public class OHRM_LoginLogout {
 			System.out.println("Login successful\nTest case pass");
 			driver.findElement(By.xpath("//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")).click();
 			driver.findElement(By.linkText("Logout")).click();
-		}
-		else
-		{
+		} else {
 			System.out.println("Invalid data\nLogin Fail");
 		}
 	}

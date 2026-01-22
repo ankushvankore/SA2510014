@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Selenium Links">
+	<test name = "Execute Class">
+		<classes>
+			<class name = "com.TestNGDemos.D05SeleniumLinks">
+			</class>
+			<class name = "com.TestNGDemos.D07AssertionDemo">
+			</class>
+		</classes>
+	</test>
+</suite>

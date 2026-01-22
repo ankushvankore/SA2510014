@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Selenium Links">
+	<test name = "Execute Single Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05SeleniumLinks">
+				<methods>
+					<include name = "downloadsLink"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

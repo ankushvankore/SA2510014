@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Selenium Links">
+	<test name = "Execute Group">
+		<groups>
+			<run>
+				<include name = "SeleniumMisc"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "com.TestNGDemos.D05SeleniumLinks">
+			</class>
+		</classes>
+	</test>
+</suite>

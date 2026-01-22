@@ -15,7 +15,6 @@ public class D03BeforeTest_AfterTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
 	}
 	
 	@AfterTest

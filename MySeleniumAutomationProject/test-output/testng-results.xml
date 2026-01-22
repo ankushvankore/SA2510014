@@ -1,101 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-20T22:20:20 IST" name="Default suite" finished-at="2026-01-20T22:20:20 IST" duration-ms="238">
+  <suite started-at="2026-01-22T22:16:44 IST" name="Default suite" finished-at="2026-01-22T22:16:54 IST" duration-ms="9844">
     <groups>
     </groups>
-    <test started-at="2026-01-20T22:20:20 IST" name="Default test" finished-at="2026-01-20T22:20:20 IST" duration-ms="238">
-      <class name="com.TestNGDemos.D06DataDrivenTesting">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="beforeTest" finished-at="2026-01-20T22:20:20 IST" duration-ms="22" status="PASS">
+    <test started-at="2026-01-22T22:16:44 IST" name="Default test" finished-at="2026-01-22T22:16:54 IST" duration-ms="9844">
+      <class name="com.TestNGDemos.D08Parameterization">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@206a70ef]" started-at="2026-01-22T22:16:44 IST" name="beforeTest" finished-at="2026-01-22T22:16:50 IST" duration-ms="5960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="login" data-provider="getLoginData" finished-at="2026-01-20T22:20:20 IST" duration-ms="14" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="login()[pri:0, instance:com.TestNGDemos.D08Parameterization@206a70ef]" started-at="2026-01-22T22:16:50 IST" name="login" finished-at="2026-01-22T22:16:52 IST" duration-ms="2561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="afterMethod" finished-at="2026-01-20T22:20:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.TestNGDemos.D08Parameterization@206a70ef]" started-at="2026-01-22T22:16:52 IST" name="logout" finished-at="2026-01-22T22:16:53 IST" duration-ms="592" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="login" data-provider="getLoginData" finished-at="2026-01-20T22:20:20 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[priya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[priya123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="afterMethod" finished-at="2026-01-20T22:20:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="login" data-provider="getLoginData" finished-at="2026-01-20T22:20:20 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ankit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ankit123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="afterMethod" finished-at="2026-01-20T22:20:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="login" data-provider="getLoginData" finished-at="2026-01-20T22:20:20 IST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="afterMethod" finished-at="2026-01-20T22:20:20 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D06DataDrivenTesting@4c12331b]" started-at="2026-01-20T22:20:20 IST" name="afterTest" finished-at="2026-01-20T22:20:20 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@206a70ef]" started-at="2026-01-22T22:16:53 IST" name="afterTest" finished-at="2026-01-22T22:16:54 IST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D06DataDrivenTesting -->
+      </class> <!-- com.TestNGDemos.D08Parameterization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
