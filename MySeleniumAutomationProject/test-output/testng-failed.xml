@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Selenium Links]">
-  <test thread-count="5" name="Execute Group(failed)">
-    <groups>
-      <run>
-        <include name="SeleniumCore"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D05SeleniumLinks">
+      <class name="com.TestNGDemos.D10POM_Client">
         <methods>
-          <include name="documentationLink"/>
-          <include name="downloadsLink"/>
+          <include name="refreshPage"/>
+          <include name="beforeTest"/>
+          <include name="rediffRegistration2"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D05SeleniumLinks -->
+      </class> <!-- com.TestNGDemos.D10POM_Client -->
     </classes>
-  </test> <!-- Execute Group(failed) -->
-</suite> <!-- Failed suite [Selenium Links] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
