@@ -1,77 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-23T22:14:50 IST" name="Default suite" finished-at="2026-01-23T22:15:10 IST" duration-ms="19508">
+  <suite started-at="2026-01-27T22:23:36 IST" name="Default suite" finished-at="2026-01-27T22:23:37 IST" duration-ms="1523">
     <groups>
     </groups>
-    <test started-at="2026-01-23T22:14:50 IST" name="Default test" finished-at="2026-01-23T22:15:10 IST" duration-ms="19508">
-      <class name="com.TestNGDemos.D10POM_Client">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2026-01-23T22:14:50 IST" name="beforeTest" finished-at="2026-01-23T22:14:56 IST" duration-ms="5257" status="PASS">
+    <test started-at="2026-01-27T22:23:36 IST" name="Default test" finished-at="2026-01-27T22:23:37 IST" duration-ms="1523">
+      <class name="com.TestNGDemos.D13ReadTheDataFromExcel">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D13ReadTheDataFromExcel@3fc2959f]" started-at="2026-01-27T22:23:36 IST" name="beforeTest" finished-at="2026-01-27T22:23:37 IST" duration-ms="1419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2026-01-23T22:14:56 IST" name="refreshPage" finished-at="2026-01-23T22:14:58 IST" duration-ms="2536" status="PASS">
+        <test-method signature="readAllData()[pri:0, instance:com.TestNGDemos.D13ReadTheDataFromExcel@3fc2959f]" started-at="2026-01-27T22:23:37 IST" name="readAllData" finished-at="2026-01-27T22:23:37 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- refreshPage -->
-        <test-method signature="rediffRegistration()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2026-01-23T22:14:58 IST" name="rediffRegistration" finished-at="2026-01-23T22:15:02 IST" duration-ms="3704" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rediffRegistration -->
-        <test-method is-config="true" signature="refreshPage()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2026-01-23T22:15:02 IST" name="refreshPage" finished-at="2026-01-23T22:15:04 IST" duration-ms="2433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- refreshPage -->
-        <test-method signature="rediffRegistration2()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2026-01-23T22:15:04 IST" name="rediffRegistration2" finished-at="2026-01-23T22:15:10 IST" duration-ms="5461" status="FAIL">
-          <exception class="graphql.AssertException">
-            <message>
-              <![CDATA[condition expected to be true]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[graphql.AssertException: condition expected to be true
-at graphql.Assert.throwAssert(Assert.java:207)
-at graphql.Assert.assertTrue(Assert.java:114)
-at com.TestNGDemos.D10POM_Client.rediffRegistration2(D10POM_Client.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- graphql.AssertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rediffRegistration2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2026-01-23T22:15:10 IST" name="afterTest" finished-at="2026-01-23T22:15:10 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- readAllData -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D13ReadTheDataFromExcel@3fc2959f]" started-at="2026-01-27T22:23:37 IST" name="afterTest" finished-at="2026-01-27T22:23:37 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D10POM_Client -->
+      </class> <!-- com.TestNGDemos.D13ReadTheDataFromExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
