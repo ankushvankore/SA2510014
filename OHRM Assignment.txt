@@ -1,0 +1,29 @@
+URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Note: Try using POM (If possible)
+
+1. Login with Admin 
+2. Click on PIM
+3. Click on + Add button
+(for following steps read the data from Excel file)
+4. Enter First Name 
+5. Enter Middle Name
+6. Enter Last Name
+7. Click on Create Login Details
+8. Enter User Name
+9. Enter Password
+10. Enter Confirm Password
+11. Click on Save Button
+12. Logout
+13. Login using data provided in step no 8 & 9
+14. A. Read the employee ID & store in the Excel file under Emp ID Column.
+14. B. Read the name displayed at Right Top corner of page and store the same in Excel sheet under Actual Message.
+15. Compare Expected Message and Actual Message from Excel sheet
+16. Mark Result column as Pass or Fail accorndly
+17. Logout
+18. Login with Admin
+19. Click on PIM
+20. Enter First Name(Step No 4) in Employee Name textbox 
+21. Click on Search
+22. Respective user information will be displayed. Delete this data.
+23. Logout
