@@ -32,7 +32,7 @@ public class D04NormalExtentReport {
 		
 		
 		//Set environment details
-		report.setSystemInfo("User Name: ", "Ankit");
+		report.setSystemInfo("User Name ", "Ankit");
 		report.setSystemInfo("Machine Name", "Dell");
 		report.setSystemInfo("OS", "Windows 10");
 		report.setSystemInfo("Browser", "Chrome");
