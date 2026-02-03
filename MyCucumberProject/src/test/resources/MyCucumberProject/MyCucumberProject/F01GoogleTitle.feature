@@ -5,4 +5,4 @@ Feature: Google title
     When Capture the title
     Then Title should be Google
 #used to comment
-#Control A & Control + Shift F
+#Control A & Control + Shift F for Pretty format
