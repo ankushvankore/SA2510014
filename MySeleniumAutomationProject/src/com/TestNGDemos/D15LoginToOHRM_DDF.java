@@ -9,7 +9,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.poi.hssf.util.HSSFColor.HSSFColorPredefined;
 import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFShape;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -39,6 +42,9 @@ public class D15LoginToOHRM_DDF {
 	XSSFCell cell;
 	int index = 1;
 	
+	XSSFCellStyle style;
+	XSSFFont font;
+	
 	WebDriver driver;
 	
 	@Test(dataProvider = "getLoginData")
@@ -67,6 +73,9 @@ public class D15LoginToOHRM_DDF {
 	
 	@AfterMethod
 	public void logout() {
+		style = wb.createCellStyle();
+		font = wb.createFont();
+		
 		String message;
 		row = sheet.getRow(index);
 		cell = row.getCell(2);
@@ -78,12 +87,24 @@ public class D15LoginToOHRM_DDF {
 			driver.findElement(By.xpath("//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon']")).click();
 			driver.findElement(By.linkText("Logout")).click();
 			
+			font.setColor(HSSFColorPredefined.GREEN.getIndex());
+			font.setBold(true);
+			style.setFont(font);
+			
+			cell.setCellStyle(style);
+			
 			cell.setCellValue("Pass");
 		} 
 		else {
 			System.out.println("Invalid data\nLogin Fail");
 			
 			message = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p")).getText();
+			
+			font.setItalic(true);
+			font.setColor(HSSFColorPredefined.RED.getIndex());
+			style.setFont(font);
+			
+			cell.setCellStyle(style);
 			
 			cell.setCellValue("Fail");
 		}

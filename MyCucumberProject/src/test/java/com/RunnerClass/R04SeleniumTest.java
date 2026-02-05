@@ -15,7 +15,7 @@ public class R04SeleniumTest {
 	 * Execute Multiple Scenarios:		tags = "@DownloadTest or @DocumentationTest"
 	 * Skip Single Scenario:			tags = "not @ProjectTest"
 	 * Skip Multiple Scenarios:			tags = "not @ProjectTest and not @DocumentationTest"
-	 * Execute All Scenarios:		
+	 * Execute All Scenarios:			tags = "@AllSeleniumTests"
 	 */
 
 }
